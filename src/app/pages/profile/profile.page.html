@@ -1,0 +1,20 @@
+<div class="profile">
+    <mat-card>
+        <mat-card-header>
+          <div mat-card-avatar>
+              <img src="./assets/images/user.png" alt="">
+          </div>
+          <mat-card-title>{{profileUser.name}}</mat-card-title>
+          <mat-card-subtitle>{{profileUser.email}}</mat-card-subtitle>
+        </mat-card-header>
+        
+        <mat-card-content>
+          <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem odit ducimus architecto distinctio excepturi, quam porro ex inventore rerum nobis similique quas esse facilis, error ipsum ipsa dicta, repellat sapiente!
+          </p>
+        </mat-card-content>
+            <div class="btn__back" [style.text-align]="'center'">
+              <button mat-raised-button color="warn" [routerLink]="['/admin/posts']" >Back</button>
+            </div>
+    </mat-card>
+</div>
